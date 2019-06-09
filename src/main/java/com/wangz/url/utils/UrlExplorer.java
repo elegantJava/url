@@ -35,7 +35,7 @@ public class UrlExplorer {
         return content;
     }
 
-    private static String readByBuffer(BufferedReader reader) throws IOException {
+    public static String readByBuffer(BufferedReader reader) throws IOException {
         StringBuilder sb = new StringBuilder();
         String line;
         //缓冲逐行读取
